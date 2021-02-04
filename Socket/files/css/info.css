@@ -1,0 +1,47 @@
+.sv
+{
+    height: 250px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.image
+{
+    float: left;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    text-align: center;
+    width: 20%;
+}
+.image2
+{
+    float: right;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-right: 12.5px;
+    text-align: right;
+    width: 50%;
+}
+.name
+{
+    background-image: url("KHTN3.png");
+    background-size: 240px 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+    float: left;
+    line-height:107%;
+    font-size:20px;
+    font-family:"Times New Roman";
+    height: 225px;
+}
+.download{
+    text-align: center;
+    margin-top: 30px;
+}
+.download button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}

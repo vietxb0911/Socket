@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    background-color: #ededed;
+}
+.login-form {
+    border: 1px solid #80808000;
+    grid-column: 6/9;
+    grid-row: 3;
+    height: 390px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background-color: white;
+}
+header{
+    background-color: #dddddd;
+    min-height: 70px;
+    padding: 15px;
+}
+main{
+    background-color: #dddddd;
+    min-height: 700px;
+    padding: 7.5px 15px;
+}
+footer{
+    background-color: #dddddd;
+    min-height: 70px;
+    padding: 15px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.logo{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+label {
+    display: block;
+    font-weight: lighter;
+}
+.input{
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    outline-style: none;
+}
+input[type="text"] {
+    padding: 5px;
+    width: 100%;
+    border-bottom: 2px solid #00BCD4;
+}
+input[type="password"] {
+    padding: 5px;
+    width: 100%;
+    border-bottom: 2px solid #00BCD4;
+}
+.btn-box{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
